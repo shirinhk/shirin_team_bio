@@ -1,0 +1,13 @@
+{
+  "name": "shirin_team_bio",
+  "version": "1.0.0",
+  "description": "my team Bio page",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Shirin the great Dev",
+  "license": "ISC"
+}
