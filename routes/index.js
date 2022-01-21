@@ -13,12 +13,12 @@ router.get('/', (req, res) => {
 })
 
 router.get('/shirin', (req, res) => {
-    res.send(`This is Shirin's page`);
+    res.end(`This is Shirin's page`);
     //res.sendFile(path.join(__dirname,'../views/index.html'));    
 })
 
 router.get('/friend', (req, res) => {
-    res.send(`This is Friend's page`);
+    res.end(`This is Friend's page`);
     //res.sendFile(path.join(__dirname,'../views/index.html'));
 })
 
